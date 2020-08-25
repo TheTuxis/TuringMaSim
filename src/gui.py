@@ -159,7 +159,7 @@ class GUI:
         index = int(w.curselection()[0])
         value = w.get(index)
         if self.automaton.set_init(value):
-            print 'ok'
+            print('ok')
 
     def add_new_character(self):
         if self.automaton.add_character_alfabet(self.new_character_string.get()):
