@@ -3,9 +3,9 @@
 Is a simple turing machine simulator.
 
 ## How Install ##
- 0. Install tk and numpy
+ 0. Install tk
     ```shell
-    $ sudo apt-get install python3-tk  python3-numpy
+    $ sudo apt-get install python3-tk
     ```
  1. Create virualenv 
     ```shell
