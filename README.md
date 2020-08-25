@@ -6,16 +6,20 @@ Is a simple turing machine simulator.
  1. Create virualenv 
     ```shell
     $ virtualenv venv -p python3
-    ```   
- 2. Install requirement.txt
+    ```
+ 2. Activate virutalenv
+     ```shell
+    $ source venv/bin/activate
+    ```
+ 3. Install requirement.txt
     ```shell
     $ pip install -r requirement.txt
     ```
- 3. Go to src 
+ 4. Go to src 
     ```shell
     $ cd src
     ```
- 4. run main.py
+ 5. run main.py
     ```shell
     $ python main.py
     ```
