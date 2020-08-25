@@ -1,7 +1,8 @@
 # -*- coding:utf-8 -*-
-import ttk
-from Tkinter import *
-import tkMessageBox
+import tkinter
+from tkinter import *
+from tkinter import ttk
+import tkinter.messagebox
 from PIL import Image, ImageTk
 from digraph import draw
 
