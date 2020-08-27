@@ -29,16 +29,15 @@ Is a simple turing machine simulator.
     ```
 
 ## Run Docker
-
-  0. Build Docker Image
+ 0. Build Docker Image
     ```shell
     $ docker build . -t turingmasim:latest
     ```
-  1. Set-up
+ 1. Set-up
     ```shell
     $ xhost +local:docker
     ```
-  2. Run TuringMaSim
+ 2. Run TuringMaSim
     ```shell
     $ docker run -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix turingmasim
     ```
