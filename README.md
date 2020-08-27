@@ -5,7 +5,7 @@ Is a simple turing machine simulator.
 ## How Install ##
  0. Install tk
     ```shell
-    $ sudo apt-get install python3-tk
+    $ sudo apt-get install python3-tk graphviz
     ```
  1. Create virualenv 
     ```shell
